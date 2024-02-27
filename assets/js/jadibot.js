@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
         
         const note = 'Sertakan screenshot bukti transfer agar admin dapat memproses pesanan anda. Jika tidak ada bukti transfer admin tidak akan memproses pesanan anda walaupun saldo masuk.';
 
-        const message = `𝗡𝗘𝗪 𝗢𝗥𝗗𝗘𝗥 | *${formattedDate}*\n\n𝗣𝗥𝗢𝗗𝗨𝗞 : ${productName}\n𝗣𝗥𝗜𝗖𝗘 : ${price}\n𝗧𝗬𝗣𝗘 𝗕𝗢𝗧 : ${type}\n𝗘𝗫𝗣𝗜𝗥𝗘𝗗 : ${expired}\n𝗡𝗼𝘁𝗲: ${note}\n\n*JOIN GRUP WHATSAPP FAYY SHOP*\n${linkGrup}\n\n© 𝗖𝗦 𝗙𝗔𝗬𝗬 𝗦𝗛𝗢𝗣`;
+        const message = `𝗡𝗘𝗪 𝗢𝗥𝗗𝗘𝗥 | *${formattedDate}*\n\n𝗣𝗥𝗢𝗗𝗨𝗞 : ${productName}\n𝗣𝗥𝗜𝗖𝗘 : ${price}\n𝗧𝗬𝗣𝗘 𝗕𝗢𝗧 : ${type}\n𝗘𝗫𝗣𝗜𝗥𝗘𝗗 : ${expired}\n𝗣𝗔𝗬𝗠𝗘𝗡𝗧 : ${paymentLink}\n\n𝗡𝗼𝘁𝗲: ${note}\n\n*JOIN GRUP WHATSAPP FAYY SHOP*\n${linkGrup}\n\n© 𝗖𝗦 𝗙𝗔𝗬𝗬 𝗦𝗛𝗢𝗣`;
 
         const whatsappLink = `https://wa.me/6281295169487?text=${encodeURIComponent(message)}`;
 
